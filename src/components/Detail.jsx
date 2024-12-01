@@ -42,7 +42,7 @@ const Detail = () => {
           className="h-[100px] w-[100px] rounded-full object-cover"
         />
         <h2>{user?.username}</h2>
-        <p>Lorem Ipsum dolar sit amet</p>
+        {/* <p>Lorem Ipsum dolar sit amet</p> */}
       </div>
       <div className="info flex flex-col p-5 gap-6">
         <div className="option">

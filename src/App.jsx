@@ -1,7 +1,15 @@
+import { BrowserRouter } from "react-router-dom";
+import Router from "./Router";
+import AuthProvider from "./providers/AuthProvider";
+
 const App = () => {
   return (
-    <div className=''>App</div>
-  )
-}
+    <BrowserRouter>
+      <AuthProvider>
+        <Router />
+      </AuthProvider>
+    </BrowserRouter>
+  );
+};
 
-export default App
+export default App;
